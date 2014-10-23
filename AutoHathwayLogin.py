@@ -52,7 +52,7 @@ def connectToHathway():
 			    opener = urllib.request.build_opener()
 			    opener.addheaders = [('User-agent', 'Mozilla/5.0')]
 			    opener.open(real_host)
-			    print("aaaaaaaaaa"+real_host+"aaaa")
+			    print(real_host)
 			except:
 				local_write("%s\tFailed to connect to %s Retrying\n" % (time.ctime(), real_host) )
 				continue
