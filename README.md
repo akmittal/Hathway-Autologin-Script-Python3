@@ -7,7 +7,7 @@ A Python 3 script to login automatically
 
 ```python AutHathwayLogin.py username@hathway.com password timeout```
 
-Timeout is time interval after it will check whether connection is alive. it is in seconds. Just keep is 30 if you don't know what to do.
+Timeout is time interval after it will check whether connection is alive. it is in seconds. Just keep it 30 if you don't know what to do.
 
 ##Auto start script in windows
 create a batch file in same directory as script(like startup.bat). 
