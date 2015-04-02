@@ -22,10 +22,12 @@ else:
 		print ("Couldn't write to file %s\n" % (file))
 
 def setup():
-	if len(sys.argv) > 1:
+	if len(sys.argv) == 4:
 		userName=sys.argv[1]
 		password=sys.argv[2]
 		sleepTime=sys.argv[3]
+	elif (len(sys.argv)>0 and len(sys.argv)!=4):
+		raise NameError('Invalid Number of arguments')
 	
 def local_write(str):
 	sys.stdout.write(str)
