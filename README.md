@@ -11,6 +11,10 @@ Timeout is time interval after it will check whether connection is alive. it is 
 
 ##Auto start script in windows
 create a batch file in same directory as script(like startup.bat). 
-write ```start python AutohathwayLogin.py```
-create a shortcut link to .bat file in location: ```C:\Users\[username]\AppData\Roaming\Microsoft\Windows\Start Menu```
+write 
+
+```start python AutohathwayLogin.py```
+create a shortcut link to .bat file in location: 
+
+```C:\Users\[username]\AppData\Roaming\Microsoft\Windows\Start Menu```
 
