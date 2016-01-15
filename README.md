@@ -13,7 +13,7 @@ Timeout is time interval after it will check whether connection is alive. it is 
 create a batch file in same directory as script(like startup.bat). 
 write 
 
-```start python AutohathwayLogin.py```
+```start python Login.py```
 
 
 create a shortcut link to .bat file in location: 
